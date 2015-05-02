@@ -1,12 +1,23 @@
+<!DOCTYPE html>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8"/>
 <html>
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link href="skeleton.css" rel="stylesheet" type="text/css"  media="all"  />
+<link href="normalize.css" rel="stylesheet" type="text/css"  media="all"  />
 
-    <title>Index</title>
-    
-</head>
-<body>
-    Hello world 
+<script src="riddle.js">
+</script>
+    <img border='0' src='background.jpg' width='100%' height='100%' style='position: absolute;left:0px;top:0px;z-index: -1'>
+        <br/><br/><br/><br/>
+        <p style="color: brown;font-size:20px" align = "center">北京大学社团文化节思潜协会</p>
+        <p style="color: brown;font-size:20px" align = "center">“智者见智”--迷你猜数</p>
+    <p align = "center"><input type="text" size = "20" id = "yes" style="text-align : center"/></p>
+    <p align = "center"><img src="1.png" align="middle" id="img1" width="50" height="50"><input type="button" onclick=myfunction("yes") value = "提交" style="text-align : center"/><img src="1.png" align="middle" id="img2" width="50" height="50"></p>
+        <p align = "center" style="font-size:15px">（注：A->数对位对 B->数对位错）</p>
+    <p align = "center" id = "chanceleft" style="font-size:15px">您还有10次机会：</p>
+    <div class = "container">
+        <div class = "row" id = "container">
+            
+        </div>
+    </div>
 </body>
-
 </html>
