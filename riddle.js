@@ -3,7 +3,7 @@ function lose(){
         restart();
     }
     function win(){
-        alert("WIN！！！");
+        alert("WIN！！！！！");
         restart();
     }
     function getAnswer(){
